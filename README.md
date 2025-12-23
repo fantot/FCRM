@@ -2,8 +2,8 @@
 
 In this work, we present a frequency-aware video dehazing framework built upon State Space Models (SSM), which leverage linear-time sequence modeling with recursive hidden states to establish implicit spatio-temporal dependencies, thereby avoiding costly motion estimation. To better separate haze degradation from structural details, we incorporate wavelet decomposition for frequency-domain decoupling: low-frequency components are restored with strong temporal modeling, while high-frequency components preserve fine textures and edges.
 
-# video demos:
-[![click to view the demo! ]clickclickc](demo.mp4)
+# video demo:
+![demo](demo.gif)
 
 # Pipeline:
 ![Pipeline](1.png)
